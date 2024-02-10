@@ -1,66 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-:root {
-    --PrimaryColor: hsl(199, 100%, 33%);
-    --SecondaryColor: hsl(187, 85%, 43%);
-    --gradientColor: linear-gradient(to right,  var(--SecondaryColor), var(--PrimaryColor));
-    --whiteColor: hsl(0, 0%, 100%);
-    --blackColor: hsl(201, 33%, 16%);
-    --bodyColor: hsl(100,17%,19%)
+nav {
+  height: 10vh; 
 }
-a{
-    text-decoration: none;
-}
-li {
-    list-style: none;
-}
-.section {
-    padding: 4rem 0 2rem;
-}
-.container {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
-.icon {
-    font-size: 2rem;
-    cursor: pointer;
-}
-.flex {
-    display: flex;
-    align-items: center;
-}
-.grid {
-    display: grid;
-}
-.btn {
-    padding: .6rem 3.5rem;
-    background: var(--gradientColor);
-    border-radius: 3rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-.btn a {
-    color:  var(--whiteColor);
-    font-weight: 500;
-}
-btn:hover {
-    background: var(--SecondaryColor);
-}
-img, video {
-    width: 100%;
-    height: auto;
-}
-input {
-    font-size: 100%; 
-}
-body {
-    background: var(--bodyColor);
+
+.home-container {
+  height: 100vh;
 }

@@ -1,0 +1,47 @@
+
+/* Home.css */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url('../../images/piscina.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #ecf0f1;
+    padding-top: 35vh;
+    height: 100vh; /* Cambiado a 100vh para ocupar toda la altura de la pantalla */
+    margin-top: 0; /* Puedes ajustar esto según sea necesario */
+  }
+  
+  
+  .home-container p {
+    font-size: 15px;
+    margin: 10px;
+  }
+  
+  .home-container h1 {
+    font-size: 2em;
+    margin: 10px;
+  }
+  
+  .home-container h5 {
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 10px;
+  }
+  
+  .home-container a {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1em;
+    width: 130px;
+    border-radius: 5px;
+  }
+  
