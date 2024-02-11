@@ -1,22 +1,19 @@
 
-/* Home.css */
-
 .home-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-image: url('../../images/piscina.jpg');
+    background-image: url('../../imgs/piscina.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     color: #ecf0f1;
     padding-top: 35vh;
-    height: 100vh; /* Cambiado a 100vh para ocupar toda la altura de la pantalla */
-    margin-top: 0; /* Puedes ajustar esto según sea necesario */
+    height: 100vh;
+    margin-top: 0;
   }
-  
   
   .home-container p {
     font-size: 15px;
