@@ -1,23 +1,23 @@
-.body-container {
+.container-scroll {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(255, 214, 138);
 }
-.scroll-box {
+.text-scroll {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 15vh;
 }
-.scroll-box p {
+.text-scroll p{
     font-size: 18px;
     margin: 15px;
 
 }  
-.scroll-box h2 {
+.text-scroll h1 {
     font-size: 24px;
 }
-.scroll-box a {
+.text-scroll a {
     margin: 15px;
 }
