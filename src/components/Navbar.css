@@ -1,5 +1,5 @@
 .active{
-    background-color: #1d4ed8;
+    background-color: #f495d3;
 }
 
 nav {
@@ -10,18 +10,18 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(15, 23, 42, 0.8); /* Usa un color de fondo con transparencia */
+    background-color: rgba(255, 192, 203, 0.5);
     color: white;
     padding: 1rem;
-    z-index: 2; /* Asegura que el navbar tenga un índice z más alto para estar sobre otros elementos */
-  }
+    z-index: 2; 
+}
 
 nav .title {
     font-size: 1.5rem;
     margin: 1rem;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: #ffd3dc;
 }
 
 nav ul {
@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 nav ul li a:not(.active):hover {
-    background-color:#172554 ;
+    background-color:#f495d3 ;
 }
 
 nav .menu {

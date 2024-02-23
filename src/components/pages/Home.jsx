@@ -4,7 +4,7 @@ import './Styles/Home.css'
 export const Home = () => {
   return (
     <div className="home-container">
-            <p>Hacienda turística</p>
+            <p>Hacienda Turística</p>
             <h1>Casa Hacienda Montalván</h1>
             <h5>AGRICOLA TERCER MUNDO S.A.</h5>
         
