@@ -1,17 +1,15 @@
-.active{
-    background-color: #f495d3;
-}
+
 
 nav {
-    position: fixed; /* Establece el navbar como fijo en la pantalla */
-    top: 0; /* Coloca el navbar en la parte superior de la pantalla */
+    position: fixed;
+    top: 0;
     left: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(255, 192, 203, 0.5);
-    color: white;
+    background-color: rgba(24, 18, 196, 0.5); /* rgba(255, 192, 203, 0.5);*/
+    color: rgb(2, 2, 2);
     padding: 1rem;
     z-index: 2; 
 }

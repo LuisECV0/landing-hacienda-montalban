@@ -5,7 +5,7 @@ import { About, Contact, Home, Services } from "./components/pages";
 import Scroll from "./components/SubPage/Scroll";
 import Footer from "./components/SubPage/Footer";
 import MisEspacios from "./components/SubPage/MisEspacios";
-
+import Nosotros from "./components/SubPage/Nosotros"
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       {/* <Scroll /> */}
+      <Nosotros />
       <MisEspacios />
       <Footer />
     </div>
