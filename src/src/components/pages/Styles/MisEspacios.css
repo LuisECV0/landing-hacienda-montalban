@@ -1,0 +1,53 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.mis-espacios {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.galeria {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    position: relative;
+}
+
+.galeria img {
+    max-width: 400px;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+    display: block;
+}
+
+.controles {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.controles .izquierda,
+.controles .derecha {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    color: rgb(213, 212, 212);
+    padding: 10px;
+}
+
+.controles .izquierda:hover {
+    color: #343f2e;
+}
+
+.controles .derecha:hover {
+    color: #343f2e;
+}
