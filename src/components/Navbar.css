@@ -65,6 +65,13 @@ nav .menu span {
 @media (max-width: 480px) {
     nav .menu {
         display: flex;
+        top: auto;
+        right: 30px;
+    }
+    nav .title {
+        margin: 0;
+        left: 30px;
+        position: relative;
     }
 
     nav {
@@ -73,10 +80,15 @@ nav .menu span {
     }
 
     nav ul {
+        background-color: rgba(24, 18, 196, 0.5);
+        position: relative;
+        z-index: 1;
+        top: 2.01vh;
         display: none;
         flex-direction: column;
         width: 100%;
         margin-bottom: 0.25rem;
+
     }
 
     nav ul.open {
