@@ -1,35 +1,87 @@
 import React, { useState } from "react";
-
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import "./Navbar.css";
-import { Link, NavLink } from "react-router-dom";
 
-export const Navbar = () => {
+const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuClick = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const handleNavLinkClick = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <nav>
-      <Link to="/" className="title">
-        logo
-      </Link>
-      <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+      <ScrollLink
+        to="home"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={800}
+        className="title"
+      >
+        Logo
+      </ScrollLink>
+      <div className="menu" onClick={handleMenuClick}>
         <span></span>
         <span></span>
         <span></span>
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <NavLink to="/Services">Quiénes somos?</NavLink>
+          <ScrollLink
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={800}
+            onClick={handleNavLinkClick}
+          >
+            Quiénes somos?
+          </ScrollLink>
         </li>
         <li>
-          <NavLink to="/services">Historia</NavLink>
+          <ScrollLink
+            to="services"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={800}
+            onClick={handleNavLinkClick}
+          >
+            Historia
+          </ScrollLink>
         </li>
         <li>
-          <NavLink to="/contact">Servicios</NavLink>
+          <ScrollLink
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={800}
+            onClick={handleNavLinkClick}
+          >
+            Servicios
+          </ScrollLink>
         </li>
         <li>
-          <NavLink to="/about">Galería</NavLink>
+          <ScrollLink
+            to="gallery"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={800}
+            onClick={handleNavLinkClick}
+          >
+            Galería
+          </ScrollLink>
         </li>
       </ul>
     </nav>
   );
 };
+
+export default Navbar;

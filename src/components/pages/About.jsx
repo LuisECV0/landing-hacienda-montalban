@@ -1,5 +1,8 @@
 import React from "react";
-
 export const About = () => {
-  return <h1>About</h1>;
+  return (
+    <div id="about" className="about-container">
+      <p>about me</p>
+    </div>
+  );
 };

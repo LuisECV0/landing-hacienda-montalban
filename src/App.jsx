@@ -1,11 +1,11 @@
+ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Navbar } from "./components/Navbar";
+import Navbar from "./components/Navbar";  // Importa el Navbar actualizado
 import { About, Contact, Home, Services } from "./components/pages";
- 
 import Footer from "./components/SubPage/Footer";
 import MisEspacios from "./components/SubPage/MisEspacios";
- 
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +15,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>  
+      </Routes>
       <MisEspacios />
       <Footer />
     </div>

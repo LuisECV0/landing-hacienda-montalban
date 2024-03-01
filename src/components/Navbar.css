@@ -1,4 +1,6 @@
-
+*{
+    scroll-behavior: smooth;
+}
 
 nav {
     position: fixed;
@@ -28,6 +30,7 @@ nav ul {
 
 nav ul li {
    list-style: none; 
+   cursor: pointer;
 }
 
 nav ul li a {
